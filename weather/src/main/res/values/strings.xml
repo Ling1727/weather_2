@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">weather</string>
+    <string name="weather">weather</string>
+    <string name="updata_time">更新时间:</string>
+    <string name="temp">°</string>
+    <string name="space">  </string>
+    <string name="shidu">湿度</string>
+    <string name="baidengbi">%</string>
+    <string name="fuhao1">/</string>
+
+    //权限
+    <!--<string name="open_storage_permit">请打开存储权限</string>
+    <string name="open_sms_permit">请打开短信权限</string>
+    <string name="open_location_permit">请打开位置权限</string>
+    <string name="open_audio_permit">请打开录音权限</string>
+    <string name="open_camnera_permit">请打开相机权限</string>
+    <string name="open_wifi_permit">请打开WIFI权限</string>
+    <string name="open_permit">请打开权限</string>-->
+</resources>

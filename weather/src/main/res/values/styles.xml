@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppStart" parent="android:Theme">
+        <item name="android:windowBackground">@mipmap/start_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="myProgressBarStyleLarge">
+        　　
+        <item name="android:indeterminateDuration">1500</item>
+        　　        <item name="android:minWidth">50dip</item>
+        　　        <item name="android:maxWidth">50dip</item>
+        　　        <item name="android:minHeight">50dip</item>
+        　　        <item name="android:maxHeight">50dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="color" type="Boolean" />
+        <variable
+            name="welcomeVPAdapter"
+            type="com.example.weather.adapter.WelcomeVPAdapter" />
+        <variable
+            name="onPageChangeListener"
+            type="android.support.v4.view.ViewPager.OnPageChangeListener" />
+
+    </data>
+    <RelativeLayout
+        android:id="@+id/rlWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adapter="@{welcomeVPAdapter}"
+            android:onPageChangeListener="@{onPageChangeListener}"
+            >
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/llWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@{color? @color/red : @color/color1}"
+                 />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@{color? @color/color1 : @color/red}"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
+
